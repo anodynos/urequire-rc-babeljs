@@ -1,16 +1,12 @@
-# [uRequire](http://urequire.org) ResourceConverter for the [*babeljs*](http://coffeescript.org) language.
+# [uRequire](http://urequire.org) ResourceConverter for the [*babeljs*](http://babeljs.io).
 
-Converts [`*.coffee|*.litcoffee|*.coffee.md`] to javascript `*.js` in your bundle.
-
-Included in uRequire & added to [`bundle.resources`](http://urequire.org/masterdefaultsconfig.coffee#bundle.resources) by default.
-
-See http://urequire.org/resourceconverters.coffee#the-alternative-less-verbose-array-way
+Converts `/.*\.(es6|es|jsx|js6|js)$/` to javascript `*.js` in your bundle.
 
 # License
 
 The MIT License
 
-Copyright (c) 2014 Agelos Pikoulas (agelos.pikoulas@gmail.com)
+Copyright (c) 2014-2016 Agelos Pikoulas (agelos.pikoulas@gmail.com)
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
